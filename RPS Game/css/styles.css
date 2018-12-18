@@ -1,0 +1,92 @@
+* {
+    font-family: 'Roboto-Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #393e46;
+    text-align: center;
+    color: #eeeeee;
+}
+
+header {
+    font-size: 1.5rem;
+    padding: 20px;
+    background-color: #eeeeee;
+    color: #393e46;
+
+}
+
+.scoreboard {
+    border-style: solid;
+    border-radius: 5px;
+    width: 20%;
+    display: inline-block;
+    margin: 30px;
+    position: relative;
+}
+
+.badge {
+    font-size: 1.2rem;
+    background-color: #00adb5;
+    display:inline-block;
+    padding: 0px 5px;
+}
+
+
+#userBadge {
+    position: absolute;
+    top: 25px;
+    left: -25px;
+}
+
+#computerBadge {
+    position: absolute;
+    top: 25px;
+    right: -30px;
+}
+
+#scores {
+    font-size: 60px;
+    color: #eeeeee;
+}
+
+.choice {
+    border-style: solid;
+    border-color: #eeeeee;
+    border-radius: 100%;
+    border-width: 4px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.choice:hover {
+    background-color: #222831;
+    transition: ease;
+    transition-duration: 200ms;
+}
+
+#result {
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+#instruction {
+    font-size: 20px;
+}
+
+.green-glow {
+    color: #a6cb12;
+    box-shadow: #a6cb12;
+}
+
+.red-glow {
+    color: #e00543;
+    box-shadow: #e00543;
+}
+
+.gray-glow {
+    color: #bcbab8;
+    box-shadow: #bcbab8
+}
